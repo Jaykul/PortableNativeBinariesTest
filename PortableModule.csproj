@@ -10,4 +10,9 @@
     <PackageReference Include="PowerShellStandard.Library" Version="5.1.0-preview-03" />
   </ItemGroup>
 
+  <ItemGroup>
+      <Content Include="PortableModule.psd1" CopyToOutputDirectory="Always" />
+      <Content Include="PortableModule.psm1" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
 </Project>
